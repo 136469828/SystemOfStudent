@@ -1,0 +1,37 @@
+//
+//  InfoViewController.m
+//  MeituanCongDome
+//
+//  Created by JCong on 15/10/21.
+//  Copyright © 2015年 梁健聪. All rights reserved.
+//
+
+#import "InfoViewController.h"
+
+@interface InfoViewController ()
+
+@end
+
+@implementation InfoViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    [self.navigationController.navigationBar setBarTintColor:RGBColor(53, 182, 169)];
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+@end
